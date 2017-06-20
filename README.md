@@ -12,13 +12,13 @@ Becuase there are lots of good tools, and if you really want to know whether you
 
 Get a coffee - there are a few things to install first...
 
-	* Albacore: https://community.nanoporetech.com/protocols/albacore-offline-basecalli/v/abec_2003_v1_revs_29nov2016/run-albacore-on-linux
-	* minion_QC.R: https://github.com/roblanf/minion_qc
-	* NGMLR: https://github.com/philres/ngmlr
-	* qualimap: http://qualimap.bioinfo.cipf.es/
-	* samtools: https://github.com/lh3/samtools
-	* miniasm: https://github.com/lh3/miniasm
-	* Quast: http://quast.sourceforge.net/download.html
+* Albacore: https://community.nanoporetech.com/protocols/albacore-offline-basecalli/v/abec_2003_v1_revs_29nov2016/run-albacore-on-linux
+* minion_QC.R: https://github.com/roblanf/minion_qc
+* NGMLR: https://github.com/philres/ngmlr
+* qualimap: http://qualimap.bioinfo.cipf.es/
+* samtools: https://github.com/lh3/samtools
+* miniasm: https://github.com/lh3/miniasm
+* Quast: http://quast.sourceforge.net/download.html
 
 Install all of these, and then make sure everything is somewhere in your path so that you can run each tool succesfully as follows:
 
