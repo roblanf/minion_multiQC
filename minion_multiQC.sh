@@ -65,4 +65,4 @@ awk '$1=="S" {print ">"$2"\n"$3} ' $miniasmout"miniasm.gfa" > $miniasmout"minias
 echo "Assessing assembly with quast"
 quastout=$outputbase"quast/"
 mkdir $quastout
-python quast.py  -t $threads -o $quastout --gene-finding --eukaryote -R $ref -G $gff $miniasmout"miniasm.fa"
+quast.py  -t $threads -o $quastout --gene-finding --eukaryote -R $ref -G $gff $miniasmout"miniasm.fa"
